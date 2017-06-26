@@ -1,0 +1,31 @@
+{
+  "name": "FontFramework",
+  "version": "0.0.1",
+  "summary": "FontFramework.",
+  "description": "FontFramework",
+  "homepage": "https://github.com/jabeattie/FontFramework",
+  "license": "MIT",
+  "authors": {
+    "James Beattie": "james.andrew.beattie@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jabeattie/FontFramework.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "FontFramework",
+    "FontFramework/**/*.{h,m,swift}"
+  ],
+  "exclude_files": "FontFramework/Exclude",
+  "resource_bundles": {
+    "Montserrat": [
+      "FontFramework/*.ttf"
+    ]
+  },
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

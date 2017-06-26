@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FontFramework-Montserrat.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FontFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ExampleTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ExampleUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2CF55AF6CEF7FB76A5BFEF2DC397D751</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4986EFD2CBEF842B268416C4D61418A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9EF90A5CD84373DC24DADD9B679EF0BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CBB4EB89245F1CA0291FC81BF2390E2D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE7AB2C1E7772352968D992832D58295</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

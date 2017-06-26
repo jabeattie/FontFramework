@@ -1,0 +1,16 @@
+PODS:
+  - FontFramework (0.0.1)
+
+DEPENDENCIES:
+  - FontFramework (from `../`)
+
+EXTERNAL SOURCES:
+  FontFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FontFramework: c285d1718da4c495a034745ff361644f53b5fc16
+
+PODFILE CHECKSUM: f02b5228751a1c4f69395c757b59b9684b7eec22
+
+COCOAPODS: 1.2.1

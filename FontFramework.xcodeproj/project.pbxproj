@@ -12,6 +12,9 @@
 		4A9F6AAA1F0197D100C690D5 /* FontFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9F6A9C1F0197D100C690D5 /* FontFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A9F6AB51F01980100C690D5 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A9F6AB31F01980100C690D5 /* Montserrat-Bold.ttf */; };
 		4A9F6AB61F01980100C690D5 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A9F6AB41F01980100C690D5 /* Montserrat-Regular.ttf */; };
+		4A9F6AB81F019A6400C690D5 /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F6AB71F019A6400C690D5 /* FontLoader.swift */; };
+		4A9F6ABA1F019AE800C690D5 /* InitialiseUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F6AB91F019AE800C690D5 /* InitialiseUI.swift */; };
+		4A9F6ABC1F019B2500C690D5 /* FontGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F6ABB1F019B2500C690D5 /* FontGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,9 @@
 		4A9F6AA91F0197D100C690D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A9F6AB31F01980100C690D5 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		4A9F6AB41F01980100C690D5 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		4A9F6AB71F019A6400C690D5 /* FontLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontLoader.swift; sourceTree = "<group>"; };
+		4A9F6AB91F019AE800C690D5 /* InitialiseUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialiseUI.swift; sourceTree = "<group>"; };
+		4A9F6ABB1F019B2500C690D5 /* FontGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 				4A9F6A9D1F0197D100C690D5 /* Info.plist */,
 				4A9F6AB31F01980100C690D5 /* Montserrat-Bold.ttf */,
 				4A9F6AB41F01980100C690D5 /* Montserrat-Regular.ttf */,
+				4A9F6AB71F019A6400C690D5 /* FontLoader.swift */,
+				4A9F6AB91F019AE800C690D5 /* InitialiseUI.swift */,
+				4A9F6ABB1F019B2500C690D5 /* FontGenerator.swift */,
 			);
 			path = FontFramework;
 			sourceTree = "<group>";
@@ -155,6 +164,7 @@
 					4A9F6A981F0197D100C690D5 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = U69Y38AA58;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					4A9F6AA11F0197D100C690D5 = {
@@ -206,6 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A9F6ABA1F019AE800C690D5 /* InitialiseUI.swift in Sources */,
+				4A9F6AB81F019A6400C690D5 /* FontLoader.swift in Sources */,
+				4A9F6ABC1F019B2500C690D5 /* FontGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +345,7 @@
 		4A9F6AAE1F0197D100C690D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = U69Y38AA58;
@@ -344,6 +358,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ceramic.FontFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -351,6 +366,7 @@
 		4A9F6AAF1F0197D100C690D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = U69Y38AA58;
@@ -370,6 +386,7 @@
 		4A9F6AB11F0197D100C690D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = U69Y38AA58;
 				INFOPLIST_FILE = FontFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -382,6 +399,7 @@
 		4A9F6AB21F0197D100C690D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = U69Y38AA58;
 				INFOPLIST_FILE = FontFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
