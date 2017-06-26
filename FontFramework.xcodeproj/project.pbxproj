@@ -15,6 +15,9 @@
 		4A9F6AB81F019A6400C690D5 /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F6AB71F019A6400C690D5 /* FontLoader.swift */; };
 		4A9F6ABA1F019AE800C690D5 /* InitialiseUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F6AB91F019AE800C690D5 /* InitialiseUI.swift */; };
 		4A9F6ABC1F019B2500C690D5 /* FontGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F6ABB1F019B2500C690D5 /* FontGenerator.swift */; };
+		4A9F6AFB1F01A3AD00C690D5 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A9F6AFA1F01A3AD00C690D5 /* Icons.xcassets */; };
+		4A9F6AFD1F01A42D00C690D5 /* IconLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F6AFC1F01A42D00C690D5 /* IconLoader.swift */; };
+		4A9F6AFF1F01A65C00C690D5 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F6AFE1F01A65C00C690D5 /* Icons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,9 @@
 		4A9F6AB71F019A6400C690D5 /* FontLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontLoader.swift; sourceTree = "<group>"; };
 		4A9F6AB91F019AE800C690D5 /* InitialiseUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialiseUI.swift; sourceTree = "<group>"; };
 		4A9F6ABB1F019B2500C690D5 /* FontGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontGenerator.swift; sourceTree = "<group>"; };
+		4A9F6AFA1F01A3AD00C690D5 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
+		4A9F6AFC1F01A42D00C690D5 /* IconLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconLoader.swift; sourceTree = "<group>"; };
+		4A9F6AFE1F01A65C00C690D5 /* Icons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,9 @@
 				4A9F6AB71F019A6400C690D5 /* FontLoader.swift */,
 				4A9F6AB91F019AE800C690D5 /* InitialiseUI.swift */,
 				4A9F6ABB1F019B2500C690D5 /* FontGenerator.swift */,
+				4A9F6AFA1F01A3AD00C690D5 /* Icons.xcassets */,
+				4A9F6AFC1F01A42D00C690D5 /* IconLoader.swift */,
+				4A9F6AFE1F01A65C00C690D5 /* Icons.swift */,
 			);
 			path = FontFramework;
 			sourceTree = "<group>";
@@ -198,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A9F6AB61F01980100C690D5 /* Montserrat-Regular.ttf in Resources */,
+				4A9F6AFB1F01A3AD00C690D5 /* Icons.xcassets in Resources */,
 				4A9F6AB51F01980100C690D5 /* Montserrat-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +229,8 @@
 				4A9F6ABA1F019AE800C690D5 /* InitialiseUI.swift in Sources */,
 				4A9F6AB81F019A6400C690D5 /* FontLoader.swift in Sources */,
 				4A9F6ABC1F019B2500C690D5 /* FontGenerator.swift in Sources */,
+				4A9F6AFF1F01A65C00C690D5 /* Icons.swift in Sources */,
+				4A9F6AFD1F01A42D00C690D5 /* IconLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -106,8 +106,11 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
-  s.resource_bundles = {"Montserrat" => ["FontFramework/*.ttf"]}
+  # s.resources = "FontFramework/Icons.xcassets"
+  s.resource_bundles = {
+    "Montserrat" => ["FontFramework/*.ttf"],
+    "Icons" => ["FontFramework/Icons.xcassets"]
+  }
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
